@@ -15,27 +15,20 @@ This is a simple web-based pizza ordering application built using Flask. The app
 - **requests** - For sending API requests from the client side
 - **Flask Middleware** - For intercepting requests and responses
 - **Flask jsonify()** - For handling JSON responses
-- **HTML, CSS, JavaScript** - For the frontend interface
+- **HTML, CSS, - For the frontend interface
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pizza-ordering-app.git
+   git clone https://github.com/yourusername/online-pizza-ordering-app.git
    cd pizza-ordering-app
    ```
 2. Create a virtual environment:
    ```bash
-   python -m venv venv
+   python -m venv my_venv
    source venv/bin/activate   # On Windows use: venv\Scripts\activate
    ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   flask run
-   ```
+
 
 ## API Endpoints
 ### 1. Place an Order
@@ -80,10 +73,5 @@ The `jsonify()` function is used to send structured JSON data to the client, ens
 - Improve UI/UX with modern frontend frameworks.
 - Extend order tracking functionality.
 
-## License
-This project is licensed under the MIT License.
 
----
-
-Feel free to modify and expand this README as needed! 🚀
 
