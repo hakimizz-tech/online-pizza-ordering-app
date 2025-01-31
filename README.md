@@ -26,7 +26,7 @@ This is a simple web-based pizza ordering application built using Flask. The app
 2. Create a virtual environment:
    ```bash
    python -m venv my_venv
-   source venv/bin/activate   # On Windows use: venv\Scripts\activate
+   my_venv\Scripts\activate
    ```
 
 
